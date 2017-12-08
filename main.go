@@ -20,16 +20,16 @@ func main() {
 	var rowNo int
 	var colNo int
 	var err error
-	flag.StringVar(&imagePath, "f", "", "image file path")
-	flag.StringVar(&excelPath, "i", "", "input excel file path")
+	flag.StringVar(&imagePath, "i", "", "image file path")
+	flag.StringVar(&excelPath, "f", "", "input excel file path")
 	flag.StringVar(&outputPath, "o", "./output.xlsx", "output excel file path")
 	flag.StringVar(&sheetName, "sheet", "Sheet1", "output workbook sheet name")
 	flag.IntVar(&rowNo, "row", 1, "start row no")
 	flag.IntVar(&colNo, "col", 1, "start col no")
 	flag.Usage = func() {
 		fmt.Fprint(os.Stderr, `Usage of go-exclart
-	-f IMAGEFILE: image file path.
-	-i EXCELFILE: input excel book path.
+	-i IMAGEFILE: image file path.
+	-f EXCELFILE: input excel book path.
 	-o EXCELFILE: output excel book path.
 	-sheet SHEET: output sheet name in excel book. 
 	-row ROWNO: output row no.

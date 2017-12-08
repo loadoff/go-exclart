@@ -11,8 +11,8 @@ Just creating Excel Art from a image file.
 
 Usage of go-exclart
 ```bash
-	-f IMAGEFILE: image file path.
-	-i EXCELFILE: input excel book path.
+	-i IMAGEFILE: image file path.
+	-f EXCELFILE: input excel book path.
 	-o EXCELFILE: output excel book path.
 	-sheet SHEET: output sheet name in excel book. 
 	-row ROWNO: output row no.
