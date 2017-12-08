@@ -59,7 +59,7 @@ func main() {
 			return
 		}
 	}
-	fmt.Println(book.TempPath)
+	defer book.Close()
 	sheet, err := book.OpenSheet(sheetName)
 	if err != nil {
 		fmt.Println(err)
