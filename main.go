@@ -69,7 +69,7 @@ func main() {
 	for i := 0; i < rect.Max.X; i++ {
 		sheet.SetColWidth(0.125, i+colNo)
 	}
-	fmt.Println("Drawing start!")
+	fmt.Println("Start Drawing!")
 	bar := pb.StartNew(rect.Max.Y)
 	for i := 0; i < rect.Max.Y; i++ {
 		row := sheet.GetRow(i + rowNo)

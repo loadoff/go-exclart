@@ -31,6 +31,13 @@ $ go-exclart -i image/path/file.png -o output.xlsx
 $ go get -u github.com/loadoff/go-exclart
 ```
 
+## Requirement
+
+Go 1.8 or higher
+
+gopkg.in/cheggaaa/pb.v1
+github.com/loadoff/excl
+
 ## In which situation is the tool most commonly used?
 
 I really don't know.
